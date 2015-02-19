@@ -33,6 +33,12 @@ gem 'spring',        group: :development
 # Use for heroku 
 gem 'rails_12factor', group: :production
 
+# Use for file upload
+gem 'carrierwave'
+
+# Use help to manage file in Amazon S3 server
+gem "fog", "~> 1.3.1"
+
 gem 'therubyracer'
 gem 'execjs'
 
