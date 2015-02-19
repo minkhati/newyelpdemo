@@ -39,6 +39,9 @@ gem 'carrierwave'
 # Use help to manage file in Amazon S3 server
 gem "fog", "~> 1.3.1"
 
+# Use for hidding the sensitive information
+gem "figaro"
+
 gem 'therubyracer'
 gem 'execjs'
 
