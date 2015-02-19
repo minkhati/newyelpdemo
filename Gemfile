@@ -42,6 +42,9 @@ gem "fog", "~> 1.3.1"
 # Use for hidding the sensitive information
 gem "figaro"
 
+# Use for reducing the size of the images
+gem "mini_magick"
+
 gem 'therubyracer'
 gem 'execjs'
 
