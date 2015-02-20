@@ -43,7 +43,11 @@ gem "fog", "~> 1.3.1"
 gem "figaro"
 
 # Use for reducing the size of the images
-gem "mini_magick"
+gem 'mini_magick', '~> 4.1.0'
+
+# Use for user addition
+gem 'devise', '~> 3.4.1'
+
 
 gem 'therubyracer'
 gem 'execjs'
