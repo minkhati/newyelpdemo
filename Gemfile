@@ -48,6 +48,8 @@ gem 'mini_magick', '~> 4.1.0'
 # Use for user addition
 gem 'devise', '~> 3.4.1'
 
+# Use for search feature
+gem 'searchkick'
 
 gem 'therubyracer'
 gem 'execjs'
