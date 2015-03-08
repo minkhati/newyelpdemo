@@ -11,9 +11,7 @@ class ReviewsController < ApplicationController
   end
 
   def edit
-    @review = Review.find(params[:id])
-    @review.user_id = current_user.id
-    @review.restaurant_id = @restaurant.id
+   
   end
 
   # POST /reviews
